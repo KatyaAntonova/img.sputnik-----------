@@ -1,4 +1,5 @@
-/*html{
+
+html{
     box-sizing: border-box;
 }
 
@@ -27,15 +28,19 @@ body{
     min-width: 320px;
     word-break: normal;
     font-family: 'Roboto', sans-serif;
-}*/
+}
 /*global--------------------------------------------*/
 
-/*.list-reset{
+.list-reset{
     margin: 0;
     padding: none;
     background-color: transparent;
     cursor: pointer;
-}*/
+}
+.display{
+    display: none;
+}
+
 .visually-hidden{
     position: absolute;
     width: 1px;
@@ -47,11 +52,6 @@ body{
     overflow: hidden;
     opacity: 0;
 }
-
-/*.display{
-    display: none;
-}*/
-
 .section{
     width: 100%;
     height: 230px;
